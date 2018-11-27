@@ -1,0 +1,76 @@
+
+
+// function changeFont(){
+// 	let font = $("#font").val();
+// 	$("#paragraph").css("fontFamily", font);
+// }
+
+
+    $('.heyy').css("color",'red')
+
+ 
+
+
+function bold(){
+	let fontWeight = $("#paragraph").css("#paragraph")
+    if (fontWeight== "normal" || fontWeight=="100") 
+    {
+		$("#paragraph").css("fontWeight", "bold");
+	}else{
+		$("#paragraph").css("fontWeight","normal")
+    }}
+    bold()
+
+//     // function normal() {
+//     //     let fontweight =$("#paragraph").css("#paragraph")
+//     //         ("#mimi").css("fontweight",normal) ;
+//     //     }
+//     function italic(){
+//         let fontStyle = $("#paragraph").css("fontStyle")
+//         if (fontStyle== "normal") {
+//             $("#mimi").css("fontStyle", "italic");
+//         }else{
+//             $("#paragraph").css("fontStyle","normal")
+//         }
+//     }
+
+//         function underline(){
+//             let textDecoration = $("#paragraph").css("textDecoration")
+//             if (textDecoration=="blue") {
+//                 $("#paragraph").css("textDecoration", "underline");
+//             } else {
+//                 $("#paragraph").css('textDecoration', "blue")
+//             }
+        
+        
+//         $("#font").change(changeFont)
+       
+//         $("#B").click(bold)
+//         $("#I").click(italic)
+//         $("#U").click(underline)
+//             }
+
+
+// // /*function bold() {
+// //     if(document.getElementById("paragraph").style.fontWeight=="normal")
+// //     document.getElementById("paragraph").style.fontWeight = "bold"
+// // 	else document.getElementById("paragraph").style.fontWeight="normal"
+// // }
+// // function Italic() {
+// //     if(document.getElementById("paragraph").style.fontStyle=="normal")
+// //     document.getElementById("paragraph").style.fontStyle = "italic"
+// // 	else document.getElementById("paragraph").style.fontStyle="normal"	
+// // }
+// // function Underline(){
+// // 	if (document.getElementById("paragraph").style.textDecoration=="normal")
+// // 	document.getElementById("paragraph").style.textDecoration = "Underline"
+// // 	else document.getElementById("paragraph").style.textDecoration="normal"
+// // }
+
+// // function changeFont(){
+// // 	var fontSelection = document.getElementById("Font");
+// // 	var fontFamily = fontSelection.options[fontSelection.selectedIndex].value;
+// // 	document.getElementById("paragraph").style.fontFamily = fontFamily;
+// // }
+// // changeFont()
+// // changeSize()
